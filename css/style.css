@@ -1,0 +1,479 @@
+body {
+	background: #f8f8f8;
+	margin: 0px;
+	font-family: Roboto, Verdana;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 1px;
+	background: #abeafa;
+}
+
+.topSide {
+	padding-top: 20px;
+	margin-bottom: 201px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 60px;
+	margin-left: 250px;
+}
+
+.tb {
+	margin-left: 250px;
+	padding: 50px 21px;
+	background: #fff51f;
+	width: 350px;
+	margin-bottom: 64px;
+}
+
+.tb h1 {
+	font-size: 36px;
+	color: #333333;
+}
+
+.tb p {
+	font-weight: bold;
+	color: #333333;
+}
+
+footer {
+	clear: both;
+}
+
+.block1 {
+	display: flex;
+	justify-content: center;
+	background: #373737;
+	padding: 75px 0px;
+}
+
+.block1 p, a {
+	font-size: 14px;
+	color: white;
+}
+
+.block1 h2 {
+	font-size: 21px;
+	color: white;
+}
+
+.menu_footer ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.menu_footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu_footer a:hover {
+	color: #03899C;
+	text-decoration: none;
+}
+
+.subscribe {
+	margin: 0px 310px;
+}
+
+.subscribe h2 {
+	display: block;
+}
+
+.subscribe h2:nth-child(1) {
+	margin-bottom: 2px;
+}
+
+.subscribe h2:nth-child(2) {
+	margin-top: 2px;
+}
+
+.footerForm_text {
+	background: #fff51f;
+	width: 160px;
+	height: 10px;
+	padding: 10px;
+	border: none;
+	margin-right: -6px;
+}
+
+.subscribe input::-webkit-input-placeholder {
+	color: #333333;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: left;
+	opacity: 0.6;
+}
+
+.footerForm_btn {
+	background-color: #000000;
+	width: 86px;
+	height: 30px;
+	padding: 0px;
+	border: none;
+	color: white;
+}
+
+.about_footer span {
+	color: #faef03;
+}
+
+.block2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0px;
+	background: #333333;
+}
+
+.block2 p {
+	float: left;
+	margin: 0px 0px 0px 250px;
+	color: white;
+}
+
+.social1 {
+	float: right;
+	margin-right: 250px;
+}
+
+.social {
+	float: right;
+	margin-right: 250px;
+}
+
+.social img, .social1 img {
+	width: 20px;
+}
+
+.social a, .social1 a {
+	text-decoration: none;
+}
+
+.mm {
+	width: 1300px;
+	margin: 0px 250px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sideMenu {
+	background: #26d2fc;
+	height: 100%;
+}
+
+.menu {
+	width: 250px;
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+.menu a, .top a {
+	color: #36BBCE;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.menu a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	background: #333333;
+}
+
+.menu a[href="#"] {
+	color: white;
+	background: #333333;
+}
+
+.menu a[href="#"]:hover {
+	color: white;
+}
+
+.menu a {
+	padding-left: 31px;
+	display: block;
+}
+
+.main {
+	padding-left: 30px;
+}
+
+.top {
+	clear: both;
+	padding: 20px 0px;
+}
+
+.social_bl {
+	display: flex;
+	width: 1300px;
+	margin: 0px 250px;
+}
+
+.fb {
+	background: #3b5997;
+	width: 33.3%;
+}
+
+.tw {
+	background: #3fccfd;
+	width: 33.3%;
+}
+
+.pinterest {
+	background: #cb2027;
+	width: 33.3%;
+}
+
+.fb a {
+	display: block;
+	margin: 100px auto;
+	background-image: url(../img/sprites-social.png);
+	background-position: 382px 47px;;
+	width: 45px;
+	height: 45px;
+}
+
+.tw a {
+	display: block;
+	margin: 100px auto;
+	background-image: url(../img/sprites-social.png);
+	background-position: -1px 47px;
+	width: 45px;
+	height: 45px;
+}
+
+.pinterest a {
+	display: block;
+	margin: 100px auto;
+	background-image: url(../img/sprites-social.png);
+	background-position: 240px 47px;;
+	width: 45px;
+	height: 45px;
+}
+
+/*Каталог*/
+
+.about h2 {
+	color: black;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+/*.s_descr {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.l_descr {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.features {
+	list-style-image: url(../img/mark.gif);
+}
+
+.features li {
+	color: #484343;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.features span {
+	font-weight: 600;
+}*/
+
+.img-bl img {
+	border: solid 5px #36BBCE;
+	float: left;
+	width: 50%;
+}
+
+.img-bl img:hover {
+	border: none;
+	margin: 5px;
+}
+
+.about {
+	width: 40%;
+	margin-right: 30px;
+	float: right;
+}
+
+.tab {
+	padding-top: 20px;
+	clear: both;
+}
+
+.tab table {
+	border: solid 1px black;
+	border-collapse: collapse;
+	width: 600px;
+	height: 110px;
+}
+
+.tab th {
+	border: solid 1px black;
+	font-weight: 600;
+}
+
+.tab td {
+	border: solid 1px black;
+	text-align: center;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-top: 18px;
+	width: 180px;
+	height: 40px;
+	background: #36BBCE;
+}
+
+.btn:hover {
+	background: #03899C;
+}
+
+.btn:active {
+	background: #f3f3f3;
+}
+
+.catalog {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.poster1, 
+.poster2, 
+.poster3,
+.poster4,
+.poster5 {
+	width: 23%;
+	margin-bottom: 30px;
+}
+
+.poster1 a, 
+.poster2 a, 
+.poster3 a,
+.poster4 a,
+.poster5 a {
+	text-decoration: none;
+}
+
+.poster1,
+.poster2, 
+.poster3,
+.poster4,
+.poster5 {
+	background: white;
+	text-align: center;
+	padding: 30px 30px;
+	margin: 10px 10px;
+}
+
+.catalog a {
+	font-style: italic;
+}
+
+/*.about p:first-letter {
+	font-size: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}*/
+
+/*Контакты*/
+
+.con {
+	float: left;
+	margin-top: 20px;
+}
+
+.con input[type="text"], .con input[type="email"] {
+	width: 250px;
+	height: 15px;
+	color: grey;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.con textarea {
+	width: 250px;
+	height: 70px;
+	color: grey;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+input, textarea {
+	text-transform: capitalize;
+}
+
+.btn-f input {
+	width: 80px;
+	height: 20px;
+	color: black;
+}
+
+.con input[type="email"]:focus {
+	background: #36BBCE;
+	color: #fff;
+}
+
+.alt ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.c {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.map {
+	clear: both;
+	padding-top: 8px;
+}
+
+.map iframe {
+	width: 100%;
+	height: 374px;
+}
+
+.hb ul {
+	padding-left: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.hb a {
+	color: #abeafa;
+	text-decoration: none;
+}
